@@ -17,7 +17,7 @@ st.set_page_config(
 st.title(f"🚀 {config.APP_NAME}")
 st.subheader("Your AI Marketing Assistant")
 
-client = Groq(api_key=GROQ_API_KEY)
+client = Groq(api_key=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)
 
 idea = st.text_area(
     "Enter your marketing idea",
